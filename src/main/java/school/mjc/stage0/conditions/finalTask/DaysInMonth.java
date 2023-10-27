@@ -34,6 +34,7 @@ public class DaysInMonth {
                      leap = false;
 
 
+
              }
              switch(month)
              {
@@ -51,9 +52,12 @@ public class DaysInMonth {
                          System.out.println("29");
                      else
                          System.out.println("28");
+                     break;
+
 
                  default:
                      System.out.println("30");
+
 
              }
 
